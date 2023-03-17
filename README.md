@@ -1,4 +1,4 @@
-# datascience_project
+# List of Portfolio Collections for Data Science Projects
 Contains a discussion of a number of problems using data science.
 
 | Project name | Description | Libraries used |
