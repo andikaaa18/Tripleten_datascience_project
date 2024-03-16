@@ -1,6 +1,12 @@
-# List of Portfolio Collections for Data Science Projects
-Contains a discussion of a number of problems using data science.
+# TripleTen Data Science Bootcamp
+Repository ini berisi proyek-proyek yang telah saya selesaikan selama belajar mengenai *data science* di [Tripleten](https://tripleten.com/). Proyek-proyek ini mencakup berbagai aspek ilmu data, mulai dari eksplorasi data, visualisasi, pengujian hipotesis, hingga membangun model *machine learning*.
 
-| Num. | Project name | Description | Libraries used |
-|:----:|:--------------|:-------------|:----------------|
-| 1 | [Analisis Penjualan Video Game untuk Perencanaan Promosi](https://github.com/andikaaa18/datascience_project/tree/230dbcb24b811cb3dd2ec220478a6b4aaa424d3e/Analisis%20Penjualan%20Video%20Game%20untuk%20Perencanaan%20Promosi) | Terdapat sebuah toko online bernama **Ice** yang menjual video game dari seluruh dunia. Saat ini sudah berada di penghujung tahun tahun 2016 sehingga toko online **Ice** perlu merencanakan kampanye iklan untuk penjualan di tahun 2017. Toko online **Ice** perlu menemukan sejumlah game potensial agar dapat membuat rencana kampanye iklan yang optimal dengan cara mengidentifikasi sejumlah pola-pola yang menentukan apakah suatu game bisa dikatakan berhasil atau tidak. Oleh karena itu, toko online **Ice** mengumpulkan sejumlah informasi terkait ulasan pengguna dan kritikus game, genre, platform (misalnya, Xbox dan PlayStation), ESRB (*Entertainment Software Rating Board*) rating dan data historis penjualan game hingga akhir tahun 2016 yang diperoleh dari *open source*. <br><br> Tujuan yang ingin dicapai pada proyek ini adalah untuk mengetahui pola-pola apa saja yang menentukan suatu game dikatakan berhasil sehingga dapat menentukan game yang paling potensial untuk kebutuhan kampanye iklan.| *pandas, numpy, seaborn, matplotlib, scipy* |
+## Project List
+1. [Analisis Penjualan Video Game untuk Perencanaan Promosi](https://github.com/andikaaa18/datascience_project/tree/230dbcb24b811cb3dd2ec220478a6b4aaa424d3e/Analisis%20Penjualan%20Video%20Game%20untuk%20Perencanaan%20Promosi)
+
+
+
+## Contact
+Jika Anda memiliki pertanyaan atau ingin mendiskusikan proyek-proyek ini lebih lanjut, jangan ragu untuk menghubungi saya.
+* Email: andikamandalaputra28@gmail.com
+* Linkedin: [Andika Mandala P](https://www.linkedin.com/in/andika-mandala-p-a8147a140/)
