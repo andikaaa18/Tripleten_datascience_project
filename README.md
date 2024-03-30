@@ -16,4 +16,4 @@ Repository ini berisi proyek-proyek yang telah saya selesaikan selama belajar me
 ## Contact
 Jika Anda memiliki pertanyaan atau ingin mendiskusikan proyek-proyek ini lebih lanjut, jangan ragu untuk menghubungi saya.
 * Email: andikamandalaputra28@gmail.com
-* Linkedin: [Andika Mandala P](https://www.linkedin.com/in/andika-mandala-p-a8147a140/)
+* Linkedin: [Andika Mandala P](https://www.linkedin.com/in/andikamandalaputra/)
