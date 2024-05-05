@@ -10,6 +10,7 @@ Repository ini berisi proyek-proyek yang telah saya selesaikan selama belajar me
 6. [Membuat Model ML (Machine-learning) Untuk Optimasi Bisnis Asuransi Dengan Perlindungan Data (Data Obfuscation)](https://github.com/andikaaa18/Tripleten_datascience_project/tree/9e0a62942b41f7a58cec44b0cf5420479e15f033/Portofolio_06)
 7. [Memprediksi Nilai Pasar Mobil Bekas Secara Instan Menggunakan Model ML (Machine-learning) Berbasis Gradient Boosting](https://github.com/andikaaa18/Tripleten_datascience_project/tree/06e779f2829473f0b5d109a0ad363c089a42fa8a/Portofolio_07)
 8. [Studi Kasus Time Series Forecasting : Perancangan Model Machine Learning untuk Memprediksi Jumlah Pesanan Taksi Bandara dalam Satu Jam ke Depan](https://github.com/andikaaa18/Tripleten_datascience_project/tree/5466e5780275adad8f1730060c29cb5e9c85b012/Portofolio_08)
+9. [Analisis Sentimen Berbasis BERT untuk Ulasan Film IMDb: Mengungkap <i>Insight</i> Sentimental Para Penggemar Film</i>](https://github.com/andikaaa18/Tripleten_datascience_project/tree/ab01eeed6b7c96ee10973d9b7582924320269be4/Portofolio_09)
 
 
 
