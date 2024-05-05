@@ -1,1 +1,34 @@
+**Table of contents**
+- **A. Pendahuluan**   
+  - 1) Deskripsi Proyek  
+  - 2) Tujuan dan Alur Proses  
+- **B. Memuat Data**
+- **C. Ikhtisar Data**  
+- **D. Mempersiapkan Data**  
+  - 1) Eksplorasi Data   
+    - **Nilai Hilang Pada Data**   
+    - **Duplikasi Pada Data**   
+    - **Noise Pada Teks Review**
+    - **Kesimpulan** 
+  - 2) Memperbaiki Data  
+  - 3) Pengayaan Data 
+  - 4) Kesimpulan  
+- **E. Analisa Data Eksploratif (EDA)** 
+  - 1) Bagaimana Pertumbuhan Industri Film Tahun ke Tahun? 
+  - 2) Bagaimana Respon Penikmat Film Setiap Tahun?   
+  - 3) Bagaimana Karakter Ulasan Untuk Setiap Polaritas? 
+  - 4) Perbandingan Dataset Training dan Testing Pada Sejumlah Parameter 
+  - 5) Kesimpulan  
+- **F. Membangun Model ML**
+  - 1) *Features Engineering*  
+  - 2) *Baseline Model*  
+  - 3) Optimasi Model 
+    - **Logistic Regression**  
+    - **Support Vector Machine (SVM)**   
+    - **XGBoost Model (XGBM)** 
+    - **K-Nearest Neighbors (KNN)** 
+  - 4) Evaluasi Model  
+    - **Membandingkan Kualitas Antar Model Melalui Visualisasi**  
+    - **Membandingkan Kualitas Antar Model Melalui Input Ulasan**  
+- **G. Kesimpulan** 
 
