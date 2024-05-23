@@ -11,6 +11,7 @@ Repository ini berisi proyek-proyek yang telah saya selesaikan selama belajar me
 7. [Memprediksi Nilai Pasar Mobil Bekas Secara Instan Menggunakan Model ML (Machine-learning) Berbasis Gradient Boosting](https://github.com/andikaaa18/Tripleten_datascience_project/tree/06e779f2829473f0b5d109a0ad363c089a42fa8a/Portofolio_07)
 8. [Studi Kasus Time Series Forecasting : Perancangan Model Machine Learning untuk Memprediksi Jumlah Pesanan Taksi Bandara dalam Satu Jam ke Depan](https://github.com/andikaaa18/Tripleten_datascience_project/tree/5466e5780275adad8f1730060c29cb5e9c85b012/Portofolio_08)
 9. [Analisis Sentimen Berbasis BERT untuk Ulasan Film IMDb: Mengungkap <i>Insight</i> Sentimental Para Penggemar Film</i>](https://github.com/andikaaa18/Tripleten_datascience_project/tree/ab01eeed6b7c96ee10973d9b7582924320269be4/Portofolio_09)
+10. [Age Estimation Using Modified ResNet50V2 for Enhanced Supermarket Services](https://github.com/andikaaa18/Tripleten_datascience_project/tree/bdf3a7cf8c22543c4697ef1a8ac758b31f04fb74/Portofolio_10)
 
 
 
