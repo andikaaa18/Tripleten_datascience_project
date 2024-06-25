@@ -6,7 +6,7 @@ import pandas as pd
 import streamlit as st
 
 def input_form(): 
-    with open("./deployment/streamlit_app/config.json", 'r') as file:
+    with open("Final_Project/deployment/streamlit_app/config.json", 'r') as file:
         config = json.load(file)
         in2out = config['in2out']
 
@@ -147,8 +147,8 @@ def cluster_info(df):
 
 # make predictions
 with st.spinner("In progres..."):
-    cluster_pipeline = joblib.load('./assets/cluster_pipeline.pkl')
-    churn_predictor_pipeline = joblib.load('./assets/churn_predictor_pipeline.pkl')
+    cluster_pipeline = joblib.load('Final_Project/assets/cluster_pipeline.pkl')
+    churn_predictor_pipeline = joblib.load('Final_Project/assets/churn_predictor_pipeline.pkl')
 
     input_df = input_form()
     if input_df.__class__ == pd.DataFrame:
