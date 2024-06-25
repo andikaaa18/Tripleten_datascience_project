@@ -1,0 +1,39 @@
+{   
+    "in2out":{
+        "yes/no":{
+            "No":0,
+            "Yes":1
+        },
+        "gender":{
+            "Female":"Female",
+            "Male":"Male"
+        },
+        "contract_type":{
+            "Month-to-month": "Month-to-month",
+            "Year-to-year": "One year",
+            "Per 2 years": "Two year"
+        },
+        "payment_method":{
+            "Bank Transfer (automatic)": "Bank transfer (automatic)",
+            "Credit Card (automatic)": "Credit card (automatic)",
+            "Electronic Check": "Electronic check",
+            "Mailed Check": "Mailed check"
+        },
+        "channel_type":{
+            "Single channel": "Single line",
+            "Multi channel": "Multi line"
+        },
+        "cable_type":{
+            "DSL": "DSL",
+            "Fiber Optic": "Fiber optic"
+        },
+        "net_addon":{
+            "Online Security": "OnlineSecurity",
+            "Online Backup": "OnlineBackup",
+            "Device Protection": "DeviceProtection",
+            "Technical Support": "TechSupport",
+            "Streaming TV": "StreamingTV",
+            "Streaming Movies": "StreamingMovies"
+        }
+    }
+}
