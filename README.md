@@ -2,11 +2,11 @@
 Repository ini berisi proyek-proyek yang telah saya selesaikan selama belajar mengenai *data science* di [Tripleten](https://tripleten.com/). Proyek-proyek ini mencakup berbagai aspek ilmu data, mulai dari eksplorasi data, visualisasi, pengujian hipotesis, hingga membangun model *machine learning*.
 
 ## Project List
-1. [Churn Analysis and Prediction for Telecommunication Services](https://github.com/andikaaa18/Tripleten_datascience_project/tree/1a6e5a47c9e22c1b311d70c583ed45c615608c0e/Final_Project) **[Final Project]** 
+1. [Churn Analysis and Prediction for Telecommunication Services](https://github.com/andikaaa18/Tripleten_datascience_project/tree/main/Final_Project) **[Final Project]** 
 2. [Analisis Penjualan Video Game untuk Perencanaan Promosi](https://github.com/andikaaa18/Tripleten_datascience_project/tree/434d5c5de496c6be4aa01fbeb5a7173392cb2e4b/Portofolio_01)
 3. [Klasifikasi Pengguna Layanan Seluler untuk Mengoptimalkan Biaya Pemasaran Menggunakan Supervised Learning](https://github.com/andikaaa18/Tripleten_datascience_project/tree/d9a9fd7713c085fe63ac49d332a12b8a6a661693/Portofolio_02)
 4. [Prediksi Churn Nasabah Bank Beta dengan Fokus Pada Mempertahankan Nasabah Lama](https://github.com/andikaaa18/Tripleten_datascience_project/tree/0dbee1eae94f476771fd66e1c93073c7868de1c5/Portofolio_03)
-5. [Identifying the Best Oil Well Exploration Locations for a Mining Company](https://github.com/andikaaa18/Tripleten_datascience_project/tree/b7c2186430651784255f2f34a0da4277cfda99f6/Portofolio_04)
+5. [Identifying the Best Oil Well Exploration Locations for a Mining Company](https://github.com/andikaaa18/Tripleten_datascience_project/tree/main/Portofolio_04)
 6. [Memprediksi Jumlah Ekstraksi Emas Pada Perusahan Tambang Emas Untuk Meningkatkan Produktivitas Perusahaan](https://github.com/andikaaa18/Tripleten_datascience_project/tree/44ec97c981bd379a5e09c8932a5f3864d885f66f/Portofolio_05)
 7. [Membuat Model ML (Machine-learning) Untuk Optimasi Bisnis Asuransi Dengan Perlindungan Data (Data Obfuscation)](https://github.com/andikaaa18/Tripleten_datascience_project/tree/9e0a62942b41f7a58cec44b0cf5420479e15f033/Portofolio_06)
 8. [Memprediksi Nilai Pasar Mobil Bekas Secara Instan Menggunakan Model ML (Machine-learning) Berbasis Gradient Boosting](https://github.com/andikaaa18/Tripleten_datascience_project/tree/06e779f2829473f0b5d109a0ad363c089a42fa8a/Portofolio_07)
