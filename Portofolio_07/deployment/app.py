@@ -7,9 +7,9 @@ import streamlit as st
 
 def input_form():
     # load data
-    with open("./assets/categorical_input.json", 'r') as f:
+    with open("Portofolio_07/assets/categorical_input.json", 'r') as f:
         cat_in = json.load(f)
-    with open("./deployment/brand_vehicleType_model.json", 'r') as f:
+    with open("Portofolio_07/deployment/brand_vehicleType_model.json", 'r') as f:
         basic_spec = {i:j for i,j in json.load(f).items() if i != '//comment'}
 
     # title of input form
@@ -74,7 +74,7 @@ def input_form():
 
 # make predictions
 with st.spinner("In progres..."):
-    pipeline = joblib.load('./assets/used_car_price_predictor_pipeline.pkl')
+    pipeline = joblib.load('Portofolio_07/assets/used_car_price_predictor_pipeline.pkl')
 
     input_df = input_form()
     if input_df.__class__ == pd.DataFrame:
