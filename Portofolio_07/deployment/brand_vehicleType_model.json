@@ -1,0 +1,384 @@
+{
+    "//comment": "This data is based on ./assets/categorical_input.json, which was grouped by ChatGPT for easy practice",
+    
+    "bmw": {
+        "sedan": ["3er", "1er", "5er", "3_reihe", "2_reihe", "7er", "6_reihe", "6er", "1_reihe"],
+        "wagon": [],
+        "suv": ["x_reihe"],
+        "small": [],
+        "bus": [],
+        "other": ["z_reihe"],
+        "coupe": ["4_reihe"],
+        "convertible": []
+    },
+    "volkswagen": {
+        "sedan": ["passat", "polo", "jetta", "bora", "phaeton", "cc"],
+        "wagon": ["touran", "sharan", "amarok"],
+        "suv": ["tiguan", "touareg"],
+        "small": ["golf", "up", "lupo", "kaefer", "fox"],
+        "bus": ["transporter"],
+        "other": ["scirocco"],
+        "coupe": ["beetle"],
+        "convertible": ["eos"]
+    },
+    "toyota": {
+        "sedan": ["avensis", "auris", "corolla", "yaris", "verso"],
+        "wagon": [],
+        "suv": ["rav"],
+        "small": ["i_reihe"],
+        "bus": [],
+        "other": [],
+        "coupe": [],
+        "convertible": []
+    },
+    "opel": {
+        "sedan": ["vectra", "astra", "insignia", "calibra", "omega", "meriva", "v_reihe", "kadett"],
+        "wagon": [],
+        "suv": ["mokka", "antara"],
+        "small": ["corsa"],
+        "bus": [],
+        "other": ["vivaro", "combo"],
+        "coupe": [],
+        "convertible": []
+    },
+    "renault": {
+        "sedan": ["scenic", "espace", "clio", "laguna", "megane", "grand", "talisman"],
+        "wagon": [],
+        "suv": ["koleos"],
+        "small": [],
+        "bus": [],
+        "other": [],
+        "coupe": [],
+        "convertible": []
+    },
+    "honda": {
+        "sedan": ["civic", "accord"],
+        "wagon": [],
+        "suv": ["cr_v"],
+        "small": ["jazz"],
+        "bus": [],
+        "other": [],
+        "coupe": [],
+        "convertible": []
+    },
+    "ford": {
+        "sedan": ["mondeo", "focus", "galaxy", "fiesta"],
+        "wagon": [],
+        "suv": ["kuga"],
+        "small": ["ka", "puma", "b_max"],
+        "bus": [],
+        "other": ["c_max", "s_max", "transit", "tourneo"],
+        "coupe": [],
+        "convertible": []
+    },
+    "audi": {
+        "sedan": ["a6", "a4", "a8", "100", "80", "a5", "a2", "a1", "q3"],
+        "wagon": [],
+        "suv": ["q7", "q5"],
+        "small": ["a3"],
+        "bus": [],
+        "other": [],
+        "coupe": ["tt"],
+        "convertible": []
+    },
+    "chrysler": {
+        "sedan": ["300c"],
+        "wagon": [],
+        "suv": ["ptcruiser"],
+        "small": [],
+        "bus": [],
+        "other": [],
+        "coupe": [],
+        "convertible": []
+    },
+    "mazda": {
+        "sedan": [],
+        "wagon": [],
+        "suv": ["cx_reihe"],
+        "small": [],
+        "bus": [],
+        "other": [],
+        "coupe": [],
+        "convertible": []
+    },
+    "nissan": {
+        "sedan": ["primera", "altima", "maxima"],
+        "wagon": [],
+        "suv": ["qashqai", "x_trail"],
+        "small": ["micra", "note"],
+        "bus": [],
+        "other": [],
+        "coupe": [],
+        "convertible": []
+    },
+    "peugeot": {
+        "sedan": [],
+        "wagon": [],
+        "suv": [],
+        "small": ["208", "308"],
+        "bus": [],
+        "other": [],
+        "coupe": [],
+        "convertible": []
+    },
+    "kia": {
+        "sedan": [],
+        "wagon": [],
+        "suv": ["sorento", "sportage"],
+        "small": ["rio", "ceed"],
+        "bus": [],
+        "other": [],
+        "coupe": [],
+        "convertible": []
+    },
+    "volvo": {
+        "sedan": ["v40", "v70", "v50", "v60", "s60", "s40", "s80"],
+        "wagon": [],
+        "suv": ["xc_reihe"],
+        "small": [],
+        "bus": [],
+        "other": [],
+        "coupe": [],
+        "convertible": []
+    },
+    "mitsubishi": {
+        "sedan": ["lancer", "galant", "carisma"],
+        "wagon": [],
+        "suv": ["pajero", "outlander"],
+        "small": ["colt"],
+        "bus": [],
+        "other": [],
+        "coupe": [],
+        "convertible": []
+    },
+    "mercedes_benz": {
+        "sedan": ["a_klasse", "c_klasse", "e_klasse", "s_klasse"],
+        "wagon": [],
+        "suv": ["m_klasse", "g_klasse", "glk"],
+        "small": ["b_klasse"],
+        "bus": [],
+        "other": ["v_klasse"],
+        "coupe": ["cl", "slk", "sl", "clk"],
+        "convertible": []
+    },
+    "skoda": {
+        "sedan": ["octavia", "superb"],
+        "wagon": [],
+        "suv": ["kodiaq", "yeti"],
+        "small": ["fabia"],
+        "bus": [],
+        "other": [],
+        "coupe": [],
+        "convertible": []
+    },
+    "mini": {
+        "sedan": [],
+        "wagon": [],
+        "suv": ["countryman"],
+        "small": ["cooper", "one", "clubman"],
+        "bus": [],
+        "other": [],
+        "coupe": [],
+        "convertible": []
+    },
+    "seat": {
+        "sedan": ["ibiza", "leon"],
+        "wagon": [],
+        "suv": [],
+        "small": ["mii"],
+        "bus": [],
+        "other": [],
+        "coupe": [],
+        "convertible": []
+    },
+    "fiat": {
+        "sedan": ["bravo", "stilo", "linea"],
+        "wagon": [],
+        "suv": ["500x", "sedici"],
+        "small": ["500", "panda", "seicento"],
+        "bus": [],
+        "other": [],
+        "coupe": ["barchetta"],
+        "convertible": []
+    },
+    "hyundai": {
+        "sedan": ["elantra"],
+        "wagon": [],
+        "suv": ["santa_fe", "tucson"],
+        "small": ["getz", "i10"],
+        "bus": [],
+        "other": [],
+        "coupe": [],
+        "convertible": []
+    },
+    "dacia": {
+        "sedan": ["logan"],
+        "wagon": [],
+        "suv": ["duster"],
+        "small": ["sandero"],
+        "bus": [],
+        "other": [],
+        "coupe": [],
+        "convertible": []
+    },
+    "saab": {
+        "sedan": ["900", "9000"],
+        "wagon": [],
+        "suv": [],
+        "small": [],
+        "bus": [],
+        "other": [],
+        "coupe": [],
+        "convertible": []
+    },
+    "alfa_romeo": {
+        "sedan": ["159", "156"],
+        "wagon": [],
+        "suv": ["stelvio"],
+        "small": ["147", "mito"],
+        "bus": [],
+        "other": [],
+        "coupe": ["brera", "spider"],
+        "convertible": []
+    },
+    "suzuki": {
+        "sedan": ["swift"],
+        "wagon": [],
+        "suv": ["grand_vitara", "vitara"],
+        "small": [],
+        "bus": [],
+        "other": [],
+        "coupe": [],
+        "convertible": []
+    },
+    "jeep": {
+        "sedan": [],
+        "wagon": [],
+        "suv": ["cherokee", "compass", "wrangler", "renegade"],
+        "small": [],
+        "bus": [],
+        "other": [],
+        "coupe": [],
+        "convertible": []
+    },
+    "land_rover": {
+        "sedan": [],
+        "wagon": [],
+        "suv": ["defender", "discovery", "freelander", "range_rover"],
+        "small": [],
+        "bus": [],
+        "other": [],
+        "coupe": [],
+        "convertible": []
+    },
+    "citroen": {
+        "sedan": ["c5", "c4"],
+        "wagon": [],
+        "suv": ["c3_aircross", "c4_cactus"],
+        "small": ["c1", "c3"],
+        "bus": [],
+        "other": [],
+        "coupe": [],
+        "convertible": []
+    },
+    "porsche": {
+        "sedan": [],
+        "wagon": [],
+        "suv": ["cayenne", "macan"],
+        "small": [],
+        "bus": [],
+        "other": [],
+        "coupe": ["911", "boxster"],
+        "convertible": []
+    },
+    "subaru": {
+        "sedan": ["impreza", "legacy"],
+        "wagon": [],
+        "suv": ["forester", "outback"],
+        "small": [],
+        "bus": [],
+        "other": [],
+        "coupe": [],
+        "convertible": []
+    },
+    "chevrolet": {
+        "sedan": ["cruze"],
+        "wagon": [],
+        "suv": ["captiva"],
+        "small": ["spark", "aveo"],
+        "bus": [],
+        "other": [],
+        "coupe": ["camaro"],
+        "convertible": []
+    },
+    "rover": {
+        "sedan": ["75"],
+        "wagon": [],
+        "suv": [],
+        "small": ["25"],
+        "bus": [],
+        "other": [],
+        "coupe": [],
+        "convertible": []
+    },
+    "jaguar": {
+        "sedan": ["x_type", "s_type"],
+        "wagon": [],
+        "suv": ["f_pace"],
+        "small": [],
+        "bus": [],
+        "other": [],
+        "coupe": ["f_type"],
+        "convertible": []
+    },
+    "lancia": {
+        "sedan": ["lybra", "thesis"],
+        "wagon": [],
+        "suv": [],
+        "small": ["ypsilon"],
+        "bus": [],
+        "other": [],
+        "coupe": [],
+        "convertible": []
+    },
+    "smart": {
+        "sedan": [],
+        "wagon": [],
+        "suv": [],
+        "small": ["fortwo"],
+        "bus": [],
+        "other": [],
+        "coupe": [],
+        "convertible": []
+    },
+    "daewoo": {
+        "sedan": ["nubira"],
+        "wagon": [],
+        "suv": [],
+        "small": ["matiz", "kalos"],
+        "bus": [],
+        "other": [],
+        "coupe": [],
+        "convertible": []
+    },
+    "daihatsu": {
+        "sedan": ["charade"],
+        "wagon": [],
+        "suv": ["terios"],
+        "small": ["cuore"],
+        "bus": [],
+        "other": [],
+        "coupe": [],
+        "convertible": []
+    },
+    "lada": {
+        "sedan": ["vesta"],
+        "wagon": [],
+        "suv": ["niva"],
+        "small": ["granta"],
+        "bus": [],
+        "other": [],
+        "coupe": [],
+        "convertible": []
+    }
+}
