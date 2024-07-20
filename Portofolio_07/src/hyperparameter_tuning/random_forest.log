@@ -1,0 +1,26 @@
+Trial 0 finished with best value: 1634.5025226153202 and parameters: {'max_depth': 19, 'min_samples_split': 50, 'min_samples_leaf': 37, 'max_features': 0.4488157937416981, 'min_freq': 0.6870220521880435}. 
+Trial 1 finished with best value: 1579.7781495293214 and parameters: {'max_depth': 27, 'min_samples_split': 33, 'min_samples_leaf': 8, 'max_features': 0.8829783115153603, 'min_freq': 0.6282084108463609}. 
+Trial 2 finished with best value: 1530.9628289099787 and parameters: {'max_depth': 42, 'min_samples_split': 18, 'min_samples_leaf': 9, 'max_features': 0.5019060563551687, 'min_freq': 0.5122192660006679}. 
+Trial 4 finished with best value: 1530.0220790222509 and parameters: {'max_depth': 29, 'min_samples_split': 24, 'min_samples_leaf': 12, 'max_features': 0.611165500548649, 'min_freq': 0.49116401374843455}. 
+Trial 10 finished with best value: 1484.1153877800105 and parameters: {'max_depth': 31, 'min_samples_split': 24, 'min_samples_leaf': 15, 'max_features': 0.9514307012002636, 'min_freq': 0.2059774656422228}. 
+Trial 11 finished with best value: 1484.1153877800102 and parameters: {'max_depth': 32, 'min_samples_split': 23, 'min_samples_leaf': 15, 'max_features': 0.9667475252918344, 'min_freq': 0.22644378031898327}. 
+Trial 12 finished with best value: 1417.8175286395035 and parameters: {'max_depth': 34, 'min_samples_split': 24, 'min_samples_leaf': 17, 'max_features': 0.912724478475018, 'min_freq': 0.14747727400564728}. 
+Trial 14 finished with best value: 1241.0867250161134 and parameters: {'max_depth': 47, 'min_samples_split': 13, 'min_samples_leaf': 11, 'max_features': 0.7987212252964745, 'min_freq': 0.0011824874482795344}. 
+Trial 15 finished with best value: 1199.363286259623 and parameters: {'max_depth': 50, 'min_samples_split': 10, 'min_samples_leaf': 4, 'max_features': 0.778366620436851, 'min_freq': 0.00030861307665785986}. 
+Trial 26 finished with best value: 1180.048231010277 and parameters: {'max_depth': 41, 'min_samples_split': 11, 'min_samples_leaf': 5, 'max_features': 0.3362905739010827, 'min_freq': 0.002205251237049375}. 
+Trial 74 finished with best value: 1163.7014293375626 and parameters: {'max_depth': 35, 'min_samples_split': 11, 'min_samples_leaf': 3, 'max_features': 0.5108820824625212, 'min_freq': 0.0003889515778179862}. 
+Trial 142 finished with best value: 1160.8276971521361 and parameters: {'max_depth': 42, 'min_samples_split': 5, 'min_samples_leaf': 3, 'max_features': 0.44605087708389735, 'min_freq': 0.0013826960959243226}. 
+Trial 168 finished with best value: 1160.4004389632712 and parameters: {'max_depth': 43, 'min_samples_split': 8, 'min_samples_leaf': 3, 'max_features': 0.42059067954817814, 'min_freq': 0.0006666269185011987}. 
+Trial 169 finished with best value: 1157.827825019381 and parameters: {'max_depth': 43, 'min_samples_split': 8, 'min_samples_leaf': 3, 'max_features': 0.4141173227670166, 'min_freq': 1.011252239937208e-05}. 
+Trial 176 finished with best value: 1156.4042558707288 and parameters: {'max_depth': 44, 'min_samples_split': 9, 'min_samples_leaf': 3, 'max_features': 0.3439447238252942, 'min_freq': 0.000297015939727774}. 
+Trial 182 finished with best value: 1154.5961077381721 and parameters: {'max_depth': 44, 'min_samples_split': 11, 'min_samples_leaf': 2, 'max_features': 0.30763574808031297, 'min_freq': 0.0026111780794186145}. 
+Trial 184 finished with best value: 1148.5950841236354 and parameters: {'max_depth': 45, 'min_samples_split': 10, 'min_samples_leaf': 2, 'max_features': 0.26601393855960886, 'min_freq': 0.001043659046215593}. 
+Trial 210 finished with best value: 1145.1432628532634 and parameters: {'max_depth': 43, 'min_samples_split': 13, 'min_samples_leaf': 1, 'max_features': 0.21287067646588254, 'min_freq': 0.00044555071468141264}. 
+Trial 211 finished with best value: 1144.5861438679524 and parameters: {'max_depth': 43, 'min_samples_split': 13, 'min_samples_leaf': 1, 'max_features': 0.21124601380970906, 'min_freq': 0.0006279334949718452}. 
+Trial 231 finished with best value: 1143.9658903122784 and parameters: {'max_depth': 45, 'min_samples_split': 13, 'min_samples_leaf': 1, 'max_features': 0.20654915187154393, 'min_freq': 0.0004301847383985842}. 
+Trial 234 finished with best value: 1142.7134984767222 and parameters: {'max_depth': 45, 'min_samples_split': 13, 'min_samples_leaf': 1, 'max_features': 0.2529144741375025, 'min_freq': 0.0003895448913830348}. 
+Trial 295 finished with best value: 1140.8373309287863 and parameters: {'max_depth': 46, 'min_samples_split': 12, 'min_samples_leaf': 1, 'max_features': 0.2692292647960716, 'min_freq': 0.00015830483015510246}. 
+Trial 353 finished with best value: 1140.6934341596916 and parameters: {'max_depth': 49, 'min_samples_split': 12, 'min_samples_leaf': 1, 'max_features': 0.30905068334855346, 'min_freq': 0.00010362118382428334}. 
+Trial 401 finished with best value: 1140.642939860677 and parameters: {'max_depth': 48, 'min_samples_split': 12, 'min_samples_leaf': 1, 'max_features': 0.2804275158822655, 'min_freq': 0.00027304417396266584}. 
+
+Elapsed time for the optimization process: 69 minutes 5.2 seconds

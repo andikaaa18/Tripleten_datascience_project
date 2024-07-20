@@ -1,0 +1,16 @@
+Trial 0 finished with best value: 2276.3028364527636 and parameters: {'min_freq': 0.3732286479430995}. 
+Trial 7 finished with best value: 2251.1075950067375 and parameters: {'min_freq': 0.2427222466054525}. 
+Trial 10 finished with best value: 2080.3171442295275 and parameters: {'min_freq': 0.0523479014247093}. 
+Trial 12 finished with best value: 2050.8855025731864 and parameters: {'min_freq': 0.022065712603542398}. 
+Trial 18 finished with best value: 1930.2452258564333 and parameters: {'min_freq': 0.0026919043879694016}. 
+Trial 23 finished with best value: 1898.4791850948227 and parameters: {'min_freq': 0.000963373313691617}. 
+Trial 34 finished with best value: 1891.0576355379658 and parameters: {'min_freq': 0.000650209923083287}. 
+Trial 93 finished with best value: 1880.9622689017422 and parameters: {'min_freq': 0.0003947708092972742}. 
+Trial 106 finished with best value: 1877.0581131044205 and parameters: {'min_freq': 0.0002728742952997627}. 
+Trial 114 finished with best value: 1871.545511280818 and parameters: {'min_freq': 0.00011100967544015695}. 
+Trial 158 finished with best value: 1870.942185902588 and parameters: {'min_freq': 4.921803895528053e-05}. 
+Trial 200 finished with best value: 1870.9252254805115 and parameters: {'min_freq': 5.709831409026205e-05}. 
+Trial 253 finished with best value: 1870.7706194718342 and parameters: {'min_freq': 4.1342670331467185e-05}. 
+Trial 346 finished with best value: 1869.9525261341817 and parameters: {'min_freq': 2.13891492752615e-05}. 
+
+Elapsed time for the optimization process: 17 minutes 3.2 seconds
