@@ -71,12 +71,13 @@ def model_predict(array):
     
     return prediction
 
-with st.spinner("In progres..."):
+with st.spinner("Download the model..."):
     # download model
     url = "https://drive.google.com/file/d/16C_FdjlHv6PYBb6jcN61DCgd6dLAfODt/view?usp=sharing"
     model_path = './best_checkpoint.model.keras'
     gdown.download(url, model_path, quiet=False)
-
+    
+with st.spinner("In progres..."):
     photo = input_form()
     execute = st.button("Run the model")
     if execute & (photo != None):
