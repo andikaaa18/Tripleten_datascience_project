@@ -1,3 +1,4 @@
+gdown==4.7.3
 keras==2.12.0
 numpy==1.23.5
 pandas==2.2.2
