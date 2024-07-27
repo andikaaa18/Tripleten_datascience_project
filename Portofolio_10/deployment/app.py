@@ -67,15 +67,26 @@ def feature_engineering(photo):
     return arr
 
 def model_predict(array):
-    model = keras.models.load_model(model_path)
     prediction = model.predict(array)
-    
     return prediction
 
-# download model
-url = "https://drive.google.com/file/d/16C_FdjlHv6PYBb6jcN61DCgd6dLAfODt/view?usp=sharing"
-model_path = './best_checkpoint.model.keras'
-gdown.download(url, model_path, quiet=False)
+# memuat model
+@st.cache(allow_output_mutation=True)
+def download_and_load_model(url, model_path):
+    response = requests.get(url)
+    with open(model_path, 'wb') as f:
+        f.write(response.content)
+    model = load_model(model_path)
+    return model
+
+# URL dari model yang diupload ke GitHub Releases
+url = 'https://github.com/andikaaa18/Tripleten_datascience_project/releases/download/model/best_checkpoint.model.keras'
+model_path = 'best_checkpoint.model.keras'
+
+# Mengunduh dan memuat model
+model = download_and_load_model(url, model_path)
+
+st.write("Model berhasil dimuat!")
 
 if os.path.exists(model_path):
     st.text(model_path)
