@@ -3,6 +3,7 @@ from PIL import Image
 import numpy as np
 from tensorflow import keras
 import gdown
+import os
 
 def input_form():
     # form title
@@ -71,23 +72,23 @@ def model_predict(array):
     
     return prediction
 
-with st.spinner("Download the model..."):
-    # download model
-    url = "https://drive.google.com/file/d/16C_FdjlHv6PYBb6jcN61DCgd6dLAfODt/view?usp=sharing"
-    model_path = './best_checkpoint.model.keras'
-    gdown.download(url, model_path, quiet=False)
+# download model
+url = "https://drive.google.com/file/d/16C_FdjlHv6PYBb6jcN61DCgd6dLAfODt/view?usp=sharing"
+model_path = './best_checkpoint.model.keras'
+gdown.download(url, model_path, quiet=False)
+
+if os.path.exists(model_path):
+    with st.spinner("In progres..."):
+        photo = input_form()
+        execute = st.button("Run the model")
+        if execute & (photo != None):
+            row1 = st.columns([0.25, 0.75])
     
-with st.spinner("In progres..."):
-    photo = input_form()
-    execute = st.button("Run the model")
-    if execute & (photo != None):
-        row1 = st.columns([0.25, 0.75])
-
-        # display the image
-        row1[0].image(resize_and_crop(photo), caption="Photo to be predicted", use_column_width="auto")
-        # predict age
-        arr = feature_engineering(photo)
-        with st.spinner("in process..."):
-            prediction = model_predict(arr)
-        row1[1].metric("The Predicted Age", f"{int(prediction[0][0])} - years")
-
+            # display the image
+            row1[0].image(resize_and_crop(photo), caption="Photo to be predicted", use_column_width="auto")
+            # predict age
+            arr = feature_engineering(photo)
+            with st.spinner("in process..."):
+                prediction = model_predict(arr)
+            row1[1].metric("The Predicted Age", f"{int(prediction[0][0])} - years")
+    
