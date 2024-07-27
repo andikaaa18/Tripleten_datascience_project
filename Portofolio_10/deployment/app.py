@@ -71,7 +71,6 @@ def model_predict(array):
     prediction = model.predict(array)
     return prediction
 
-# memuat model
 @st.cache(allow_output_mutation=True)
 def download_and_load_model(url, model_path):
     response = requests.get(url)
@@ -80,28 +79,25 @@ def download_and_load_model(url, model_path):
     model = keras.models.load_model(model_path)
     return model
 
-# URL dari model yang diupload ke GitHub Releases
+# URL of the model uploaded to GitHub Releases
 url = 'https://github.com/andikaaa18/Tripleten_datascience_project/releases/download/model/best_checkpoint.model.keras'
 model_path = 'best_checkpoint.model.keras'
 
-# Mengunduh dan memuat model
-model = download_and_load_model(url, model_path)
+# Downloading and loading models
+with st.spinner("In process of downloading model..."):
+    model = download_and_load_model(url, model_path)
 
-st.write("Model berhasil dimuat!")
+with st.spinner("In progres..."):
+    photo = input_form()
+    execute = st.button("Run the model")
+    if execute & (photo != None):
+        row1 = st.columns([0.25, 0.75])
 
-if os.path.exists(model_path):
-    st.text(model_path)
-    with st.spinner("In progres..."):
-        photo = input_form()
-        execute = st.button("Run the model")
-        if execute & (photo != None):
-            row1 = st.columns([0.25, 0.75])
-    
-            # display the image
-            row1[0].image(resize_and_crop(photo), caption="Photo to be predicted", use_column_width="auto")
-            # predict age
-            arr = feature_engineering(photo)
-            with st.spinner("in process..."):
-                prediction = model_predict(arr)
-            row1[1].metric("The Predicted Age", f"{int(prediction[0][0])} - years")
-    
+        # display the image
+        row1[0].image(resize_and_crop(photo), caption="Photo to be predicted", use_column_width="auto")
+        # predict age
+        arr = feature_engineering(photo)
+        with st.spinner("in process..."):
+            prediction = model_predict(arr)
+        row1[1].metric("The Predicted Age", f"{int(prediction[0][0])} - years")
+
