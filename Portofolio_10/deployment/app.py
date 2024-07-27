@@ -53,8 +53,6 @@ def resize_and_crop(photo, size=(150,150)):
 
     return photo
 
-    pass
-
 def feature_engineering(photo):
     # resizing an image
     photo = resize_and_crop(photo)
@@ -87,7 +85,7 @@ model_path = 'best_checkpoint.model.keras'
 with st.spinner("In process of downloading model..."):
     model = download_and_load_model(url, model_path)
 
-with st.spinner("In progres..."):
+with st.spinner("In progress..."):
     photo = input_form()
     execute = st.button("Run the model")
     if execute & (photo != None):
