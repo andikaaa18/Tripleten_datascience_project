@@ -24,7 +24,7 @@ def input_form():
             photo = Image.open(photo)
 
     else:
-        photo = Image.open("./assets/sample_photo.png")
+        photo = Image.open("Portofolio_10/assets/sample_photo.png")
 
     return photo
 
@@ -65,7 +65,7 @@ def feature_engineering(photo):
     return arr
 
 def model_predict(array):
-    model = keras.models.load_model('./assets/best_checkpoint.model.keras')
+    model = keras.models.load_model('Portofolio_10/assets/best_checkpoint.model.keras')
     prediction = model.predict(array)
     
     return prediction
