@@ -77,7 +77,7 @@ def download_and_load_model(url, model_path):
     response = requests.get(url)
     with open(model_path, 'wb') as f:
         f.write(response.content)
-    model = load_model(model_path)
+    model = keras.models.load_model(model_path)
     return model
 
 # URL dari model yang diupload ke GitHub Releases
