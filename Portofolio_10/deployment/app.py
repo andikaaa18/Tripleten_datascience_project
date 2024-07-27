@@ -78,6 +78,7 @@ model_path = './best_checkpoint.model.keras'
 gdown.download(url, model_path, quiet=False)
 
 if os.path.exists(model_path):
+    st.text(model_path)
     with st.spinner("In progres..."):
         photo = input_form()
         execute = st.button("Run the model")
