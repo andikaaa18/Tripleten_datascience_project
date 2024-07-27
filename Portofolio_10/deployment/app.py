@@ -2,6 +2,7 @@ import streamlit as st
 from PIL import Image
 import numpy as np
 from tensorflow import keras
+import gdown
 
 def input_form():
     # form title
@@ -65,7 +66,10 @@ def feature_engineering(photo):
     return arr
 
 def model_predict(array):
-    model = keras.models.load_model('Portofolio_10/assets/best_checkpoint.model.keras')
+    url = "https://drive.google.com/file/d/16C_FdjlHv6PYBb6jcN61DCgd6dLAfODt/view?usp=sharing"
+    output = './best_checkpoint.model.keras'
+    gdown.download(url, output, quiet=False)
+    model = keras.models.load_model(output)
     prediction = model.predict(array)
     
     return prediction
