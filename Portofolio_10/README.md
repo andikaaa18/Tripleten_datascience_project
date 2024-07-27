@@ -1,19 +1,10 @@
-<div style="display: flex; align-items: center; justify-content: left; padding: 0px;">
-    <div class="logo-container" style="flex:0.1;height:100%;">
-        <img src="./assets/face_detection_1.jpeg" alt="Logo" style="max-height: 155px; width: auto; filter:invert(0%);">
-    </div>
-    <div class="title-container" style="flex:0.9;height:75%;text-align: left">
-        <div style="margin: 0px 0px 0px 20px; font-size: 40px; font-family:Trebuchet MS; font-weight:bold; line-height:40px;"><b>Age Estimation Using Modified ResNet50V2 for Enhanced Supermarket Services:</b></div>
-        <div style="margin: 0px 0px 0px 20px; font-size: 30px; font-family:Trebuchet MS;line-height:1.2">Modifying and fine-tuning the ResNet model for regression tasks.</div>
-    </div>
-</div>
-
+# <img src="./assets/face_detection_1.jpeg" height="130px" align="left" style="background-color:white;"> **Age Estimation Using Modified ResNet50V2 for Enhanced Supermarket Services:** Modifying and fine-tuning the ResNet model for regression tasks.
 ***
 
 # **About the Project**
 ## Background and Objectives
 
-<div style="text-align:center"><img src="./assets/supermarkets.png" height="250px"><img src="./assets/cashier.png" height="200px"></div>
+<div style="text-align:center"><img src="./assets/supermarkets.png" height="180px"><img src="./assets/cashier.png" height="150px"></div>
 
 Currently, we are working for a supermarket franchise named **Good Seed**. **Good Seed** aims to enhance the quality of its services to grow its business by offering attractive products tailored to the customers' age groups. Therefore, **Good Seed** needs to analyze product purchases within each age group, develop a system that can provide recommendations to customers of specific age groups, and create a system that can monitor employees selling age-restricted products.
 
@@ -32,9 +23,9 @@ The output of this project is a predictive model that can estimate a person's ag
 In this project, the ResNet50V2 model is used as the base model for predicting a person's age. The ResNet50V2 model, originally a classification model, is modified in the top layers to work for regression tasks. Two types of top layer architectures were tested to achieve the minimum error, and the following is the best architecture obtained.
 
 <div style="text-align:center; font-weight:bold;">
-ResNet50V2 &rarr; GlobalAvg.Pooling &rarr; Dense(128) &rarr; Dense(16) &rarr; Dense(16) &rarr; Dense(8) &rarr; Dense(1)
+<strong>ResNet50V2 &rarr; GlobalAvg.Pooling &rarr; Dense(128) &rarr; Dense(16) &rarr; Dense(16) &rarr; Dense(8) &rarr; Dense(1)</strong>
 </div>
-
+<br>
 With the combination of layer parameters, appropriate learning rate, and regularization constant, this model achieves a MAE score of 6,71 years and 6,85 years when predicting the validation set and testing set, respectively.
 
 
