@@ -66,15 +66,17 @@ def feature_engineering(photo):
     return arr
 
 def model_predict(array):
-    url = "https://drive.google.com/file/d/16C_FdjlHv6PYBb6jcN61DCgd6dLAfODt/view?usp=sharing"
-    output = './best_checkpoint.model.keras'
-    gdown.download(url, output, quiet=False)
-    model = keras.models.load_model(output)
+    model = keras.models.load_model(model_path)
     prediction = model.predict(array)
     
     return prediction
 
 with st.spinner("In progres..."):
+    # download model
+    url = "https://drive.google.com/file/d/16C_FdjlHv6PYBb6jcN61DCgd6dLAfODt/view?usp=sharing"
+    model_path = './best_checkpoint.model.keras'
+    gdown.download(url, model_path, quiet=False)
+
     photo = input_form()
     execute = st.button("Run the model")
     if execute & (photo != None):
