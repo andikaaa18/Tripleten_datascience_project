@@ -8,7 +8,7 @@ import transformers
 def download_and_load_model():
     bert_tokenizer = transformers.BertTokenizer.from_pretrained("bert-base-uncased")
     bert_model = transformers.BertModel.from_pretrained("bert-base-uncased").to(device)
-    sentiment_model = joblib.load("./assets/best_model.pkl")
+    sentiment_model = joblib.load("./Portofolio_09/assets/best_model.pkl")
     return bert_tokenizer, bert_model, sentiment_model
 
 def input_form():
@@ -85,7 +85,7 @@ if execute:
         threshold = 0.40
         prediction = "POSITIVE" if pred_prob>threshold else "NEGATIVE"
 
-    with open("./deployment/style.css", 'r') as f:
+    with open("./Portofolio_09/deployment/style.css", 'r') as f:
         style = f.read()
         st.markdown(f"<style>{style}</style>", unsafe_allow_html=True)
 
