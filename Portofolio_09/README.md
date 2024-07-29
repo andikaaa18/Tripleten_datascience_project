@@ -1,13 +1,4 @@
-<div style="display: flex; align-items: center; justify-content: left; padding: 0px;">
-    <div class="logo-container" style="flex:0.08;height:100%;">
-        <img src="./assets/movie.png" alt="Logo" style="max-height: 120px; width: auto; filter:invert(0%);">
-    </div>
-    <div class="title-container" style="flex:0.92;height:75%;text-align: left">
-        <div style="margin: 0px 0px 0px 20px; font-size: 40px; font-family:Trebuchet MS; font-weight:bold; line-height:40px;"><b>Sentiment Analysis Based on BERT for IMDb Movie Reviews:</b></div>
-        <div style="margin: 0px 0px 0px 20px; font-size: 30px; font-family:Trebuchet MS;line-height:1.2">Revealing Sentimental Insights of Movie Fans.</div>
-    </div>
-</div>
-
+# <img src="./assets/movie.png" height="90px" align="left" style="background-color:white;"> **Sentiment Analysis Based on BERT for IMDb Movie Reviews:** Revealing Sentimental Insights of Movie Fans.
 ***
 
 # **About the Project**
